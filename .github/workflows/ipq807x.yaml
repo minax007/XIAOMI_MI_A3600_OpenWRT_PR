@@ -2,8 +2,8 @@ name: Build remote repo only if new commits were pushed
 on:
   workflow_dispatch:
   push:
-  schedule:
-    - cron: '0 7 * * *'
+#  schedule:
+#    - cron: '0 7 * * *'
 jobs:
   check:
     name: Check remote repo for new commits
