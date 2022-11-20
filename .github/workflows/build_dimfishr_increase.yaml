@@ -169,7 +169,7 @@ jobs:
       - name: Download the image artifacts
         uses: actions/download-artifact@v2
         with:
-          name: OpenWrt for AX3600 with increased partitioning based on Dimfish repository
+          name: ipq807x-images
       - name: Extract the image artifacts
         run: tar xf ipq807xx-images.tar
       - name: Extract version information from version.buildinfo
@@ -182,5 +182,5 @@ jobs:
           repo_token: '${{ secrets.GITHUB_TOKEN }}'
           files: bin/targets/ipq807x/generic/*
           title: "Updated prebuilt images ${{ env.NOW }}"
-          automatic_release_tag: OpenWrt for AX3600 with increased partitioning based on Dimfish repository
+          automatic_release_tag: OpenWrt AX3600 INCREASE (Dimfishr)
           auto_generate_release_notes: true
