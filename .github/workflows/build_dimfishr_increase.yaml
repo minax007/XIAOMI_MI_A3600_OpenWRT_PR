@@ -180,7 +180,6 @@ jobs:
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: '${{ secrets.GITHUB_TOKEN }}'
-          prerelease: true
           files: bin/targets/ipq807x/generic/*
           title: "Updated prebuilt images ${{ env.NOW }}"
           automatic_release_tag: OpenWrt for AX3600 with increased partitioning based on Dimfish repository
