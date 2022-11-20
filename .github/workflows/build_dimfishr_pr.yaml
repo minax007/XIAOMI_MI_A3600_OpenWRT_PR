@@ -183,5 +183,5 @@ jobs:
           prerelease: true
           files: bin/targets/ipq807x/generic/*
           title: "Updated prebuilt images ${{ env.NOW }}"
-          automatic_release_tag: ipq807x-latest@v6.1
+          automatic_release_tag: OpenWrt for AX3600 with regular partitioning based on Dimfish repository
           auto_generate_release_notes: true
