@@ -180,7 +180,8 @@ jobs:
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: '${{ secrets.GITHUB_TOKEN }}'
+          prerelease: true
           files: bin/targets/ipq807x/generic/*
           title: "Updated prebuilt images ${{ env.NOW }}"
-          automatic_release_tag: OpenWrt AX3600 REGULAR (Dimfishr)
+          automatic_release_tag: ipq807x-latest@v6.1
           auto_generate_release_notes: true
