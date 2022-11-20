@@ -1,4 +1,4 @@
-name: Dimfish with regular partioning
+name: Dimfish with regular partitioning
 on:
   workflow_dispatch:
   push:
