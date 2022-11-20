@@ -1,4 +1,4 @@
-name: Build remote repo only if new commits were pushed
+name: Dimfish with regular partioning
 on:
   workflow_dispatch:
   push:
