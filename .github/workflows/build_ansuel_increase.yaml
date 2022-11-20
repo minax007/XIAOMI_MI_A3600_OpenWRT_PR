@@ -1,4 +1,4 @@
-name: Ansuel with increased partioning
+name: Ansuel with increased partitioning
 on:
   workflow_dispatch:
   push:
