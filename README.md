@@ -4,7 +4,9 @@
 # OpenWrt build for Xiaomi Mi AX3600 (R3600) incl. LuCI
 
 This GitHub action is creating different OpenWrt builds for AX3600 based on the following repositories:
+
 https://github.com/robimarko/openwrt
+
 https://github.com/dimfishr/openwrt
 
 ![grafik](https://user-images.githubusercontent.com/67478561/202847325-0483eca6-1ac8-4efa-8d24-87f8671e8760.png)
