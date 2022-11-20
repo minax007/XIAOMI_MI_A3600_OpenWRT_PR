@@ -1,4 +1,4 @@
-name: Dimfish with regular partioning
+name: Dimfish with increased partioning
 on:
   workflow_dispatch:
   push:
