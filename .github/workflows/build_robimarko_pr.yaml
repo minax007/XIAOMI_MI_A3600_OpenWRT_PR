@@ -1,4 +1,4 @@
-name: Build remote repo only if new commits were pushed
+name: Robimarko with regular partitioning
 on:
   workflow_dispatch:
   push:
