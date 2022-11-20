@@ -1,4 +1,4 @@
-[![Build OpenWrt](https://github.com/minax007/XIAOMI_MI_AX3600_OpenWrt/actions/workflows/build-openwrt.yml/badge.svg)](https://github.com/minax007/XIAOMI_MI_AX3600_OpenWrt/actions/workflows/build-openwrt.yml)
+[![Build OpenWrt](https://github.com/minax007/XIAOMI_MI_AX3600_OpenWrt/actions/workflows/build_dimfishr_pr.yaml/badge.svg)](https://github.com/minax007/XIAOMI_MI_AX3600_OpenWrt/actions/workflows/build_dimfishr_pr.yaml)
 [![release](https://img.shields.io/github/v/release/minax007/XIAOMI_MI_AX3600_OpenWrt.svg)](https://github.com/minax007/XIAOMI_MI_AX3600_OpenWrt/releases)
 
 # OpenWrt build for Xiaomi Mi AX3600 (R3600) incl. LuCI
